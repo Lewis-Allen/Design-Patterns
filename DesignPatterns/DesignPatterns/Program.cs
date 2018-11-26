@@ -16,7 +16,7 @@ namespace DesignPatterns
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ObserverForm());
+            Application.Run(new Form1());
         }
     }
 }

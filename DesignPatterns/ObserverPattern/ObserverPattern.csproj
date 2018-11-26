@@ -7,7 +7,7 @@
     <ProjectGuid>{C7EB2B59-4E73-4ABD-8BE9-8FF1E1BF8A92}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>DesignPatterns</RootNamespace>
-    <AssemblyName>DesignPatterns</AssemblyName>
+    <AssemblyName>ObserverPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -56,8 +56,8 @@
     <Compile Include="Observers\ObserverBinary.cs" />
     <Compile Include="Observers\ObserverHex.cs" />
     <Compile Include="Observers\ObserverDecimal.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Subject\Subject.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Subjects\Subject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ObserverForm.resx">
       <DependentUpon>ObserverForm.cs</DependentUpon>

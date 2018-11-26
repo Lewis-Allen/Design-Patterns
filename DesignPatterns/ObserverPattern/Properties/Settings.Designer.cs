@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DesignPatterns.Properties
+namespace ObserverPattern.Properties
 {
 
 

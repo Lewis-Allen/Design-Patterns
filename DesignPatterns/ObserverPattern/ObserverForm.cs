@@ -1,7 +1,8 @@
-﻿using DesignPatterns.Observer;
+﻿using ObserverPattern.Observers;
+using ObserverPattern.Subjects;
 using System.Windows.Forms;
 
-namespace DesignPatterns
+namespace ObserverPattern
 {
     public partial class ObserverForm : Form
     {

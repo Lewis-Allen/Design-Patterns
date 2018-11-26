@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObserverPattern
+namespace AdapterPattern
 {
-    public abstract class BaseObserverView
+    public interface IToyDog
     {
-        public abstract void Update();
+        void FakeBark();
     }
 }
