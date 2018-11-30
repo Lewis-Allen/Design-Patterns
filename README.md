@@ -8,6 +8,8 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 
 ### Structural
 - Adapter Pattern
+- Decorator Pattern
+- Facade Pattern
 
 ### Behavioural
 - Observer Pattern
