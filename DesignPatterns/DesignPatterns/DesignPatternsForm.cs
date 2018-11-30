@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace DesignPatterns
 {
-    public partial class Form1 : Form
+    public partial class DesignPatternsForm : Form
     {
-        public Form1()
+        public DesignPatternsForm()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace DesignPatterns
         {
             Form observerForm = new ObserverForm();
             observerForm.Show();
+        }
+
+        private void DecoratorPatternBtn_Click(object sender, EventArgs e)
+        {
+            DecoratorPattern.Client.Main();
         }
     }
 }

@@ -48,12 +48,12 @@
     <Compile Include="DesignPatternsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="DesignPatternsForm.Designer.cs">
       <DependentUpon>DesignPatternsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="DesignPatternsForm.resx">
       <DependentUpon>DesignPatternsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -82,6 +82,10 @@
     <ProjectReference Include="..\AdapterPattern\AdapterPattern.csproj">
       <Project>{65160750-d051-4e51-b5fa-d85f2802c9d0}</Project>
       <Name>AdapterPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj">
+      <Project>{6aba888f-b318-48a9-bf63-0aa8926ff055}</Project>
+      <Name>DecoratorPattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\ObserverPattern\ObserverPattern.csproj">
       <Project>{c7eb2b59-4e73-4abd-8be9-8ff1e1bf8a92}</Project>
