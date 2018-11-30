@@ -8,15 +8,19 @@ namespace ObserverPattern
     {
         private Subject subject;
 
+        ObserverDecimal decObserver;
+        ObserverBinary binObserver;
+        ObserverHex hexObserver;
+
         public ObserverForm()
         {
             InitializeComponent();
 
             subject = new Subject();
 
-            ObserverDecimal decObserver = new ObserverDecimal(subject, textBox1);
-            ObserverBinary binObserver = new ObserverBinary(subject, textBox2);
-            ObserverHex hexObserver = new ObserverHex(subject, textBox3);
+            decObserver = new ObserverDecimal(subject, textBox1);
+            binObserver = new ObserverBinary(subject, textBox2);
+            hexObserver = new ObserverHex(subject, textBox3);
 
             subject.Attach(decObserver);
             subject.Attach(binObserver);
@@ -33,6 +37,36 @@ namespace ObserverPattern
         private void Decrement_Click(object sender, System.EventArgs e)
         {
             subject.SetValue(subject.GetValue() - 1);
+        }
+
+        private void decimalObserverDetach_Click(object sender, System.EventArgs e)
+        {
+            DetachObserver(decimalAttachDetachBtn, decObserver);
+        }
+
+        private void binaryObserverDetach_Click(object sender, System.EventArgs e)
+        {
+            DetachObserver(binaryAttachDetachBtn, binObserver);
+
+        }
+
+        private void hexObserverDetach_Click(object sender, System.EventArgs e)
+        {
+            DetachObserver(hexAttachDetachBtn, hexObserver);
+        }
+
+        private void DetachObserver(Button button, BaseObserverView observer)
+        {
+            if (button.Text.Equals("Detach"))
+            {
+                subject.Detach(observer);
+                button.Text = "Attach";
+            }
+            else
+            {
+                subject.Attach(observer);
+                button.Text = "Detach";
+            }
         }
     }
 }

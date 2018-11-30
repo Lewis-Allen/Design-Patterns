@@ -36,6 +36,9 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.decimalAttachDetachBtn = new System.Windows.Forms.Button();
+            this.binaryAttachDetachBtn = new System.Windows.Forms.Button();
+            this.hexAttachDetachBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -47,7 +50,7 @@
             // 
             // Increment
             // 
-            this.Increment.Location = new System.Drawing.Point(144, 25);
+            this.Increment.Location = new System.Drawing.Point(269, 12);
             this.Increment.Name = "Increment";
             this.Increment.Size = new System.Drawing.Size(75, 23);
             this.Increment.TabIndex = 1;
@@ -57,7 +60,7 @@
             // 
             // Decrement
             // 
-            this.Decrement.Location = new System.Drawing.Point(144, 54);
+            this.Decrement.Location = new System.Drawing.Point(269, 41);
             this.Decrement.Name = "Decrement";
             this.Decrement.Size = new System.Drawing.Size(75, 23);
             this.Decrement.TabIndex = 2;
@@ -106,11 +109,44 @@
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 7;
             // 
+            // button1
+            // 
+            this.decimalAttachDetachBtn.Location = new System.Drawing.Point(118, 23);
+            this.decimalAttachDetachBtn.Name = "button1";
+            this.decimalAttachDetachBtn.Size = new System.Drawing.Size(75, 23);
+            this.decimalAttachDetachBtn.TabIndex = 8;
+            this.decimalAttachDetachBtn.Text = "Detach";
+            this.decimalAttachDetachBtn.UseVisualStyleBackColor = true;
+            this.decimalAttachDetachBtn.Click += new System.EventHandler(this.decimalObserverDetach_Click);
+            // 
+            // button2
+            // 
+            this.binaryAttachDetachBtn.Location = new System.Drawing.Point(118, 74);
+            this.binaryAttachDetachBtn.Name = "button2";
+            this.binaryAttachDetachBtn.Size = new System.Drawing.Size(75, 23);
+            this.binaryAttachDetachBtn.TabIndex = 9;
+            this.binaryAttachDetachBtn.Text = "Detach";
+            this.binaryAttachDetachBtn.UseVisualStyleBackColor = true;
+            this.binaryAttachDetachBtn.Click += new System.EventHandler(this.binaryObserverDetach_Click);
+            // 
+            // button3
+            // 
+            this.hexAttachDetachBtn.Location = new System.Drawing.Point(118, 130);
+            this.hexAttachDetachBtn.Name = "button3";
+            this.hexAttachDetachBtn.Size = new System.Drawing.Size(75, 23);
+            this.hexAttachDetachBtn.TabIndex = 10;
+            this.hexAttachDetachBtn.Text = "Detach";
+            this.hexAttachDetachBtn.UseVisualStyleBackColor = true;
+            this.hexAttachDetachBtn.Click += new System.EventHandler(this.hexObserverDetach_Click);
+            // 
             // ObserverForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(231, 170);
+            this.ClientSize = new System.Drawing.Size(356, 170);
+            this.Controls.Add(this.hexAttachDetachBtn);
+            this.Controls.Add(this.binaryAttachDetachBtn);
+            this.Controls.Add(this.decimalAttachDetachBtn);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
@@ -136,6 +172,9 @@
         public System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         public System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button decimalAttachDetachBtn;
+        private System.Windows.Forms.Button binaryAttachDetachBtn;
+        private System.Windows.Forms.Button hexAttachDetachBtn;
     }
 }
 
