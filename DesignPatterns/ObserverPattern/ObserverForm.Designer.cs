@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.decTextBox = new System.Windows.Forms.TextBox();
             this.Increment = new System.Windows.Forms.Button();
             this.Decrement = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.binTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.hexTextBox = new System.Windows.Forms.TextBox();
             this.decimalAttachDetachBtn = new System.Windows.Forms.Button();
             this.binaryAttachDetachBtn = new System.Windows.Forms.Button();
             this.hexAttachDetachBtn = new System.Windows.Forms.Button();
@@ -43,10 +43,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 25);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.decTextBox.Location = new System.Drawing.Point(12, 25);
+            this.decTextBox.Name = "textBox1";
+            this.decTextBox.Size = new System.Drawing.Size(100, 20);
+            this.decTextBox.TabIndex = 0;
             // 
             // Increment
             // 
@@ -88,10 +88,10 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.binTextBox.Location = new System.Drawing.Point(12, 76);
+            this.binTextBox.Name = "textBox2";
+            this.binTextBox.Size = new System.Drawing.Size(100, 20);
+            this.binTextBox.TabIndex = 5;
             // 
             // label3
             // 
@@ -104,10 +104,10 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(12, 132);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 7;
+            this.hexTextBox.Location = new System.Drawing.Point(12, 132);
+            this.hexTextBox.Name = "textBox3";
+            this.hexTextBox.Size = new System.Drawing.Size(100, 20);
+            this.hexTextBox.TabIndex = 7;
             // 
             // button1
             // 
@@ -147,14 +147,14 @@
             this.Controls.Add(this.hexAttachDetachBtn);
             this.Controls.Add(this.binaryAttachDetachBtn);
             this.Controls.Add(this.decimalAttachDetachBtn);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.hexTextBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.binTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Decrement);
             this.Controls.Add(this.Increment);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.decTextBox);
             this.Name = "ObserverForm";
             this.Text = "Observer Pattern";
             this.ResumeLayout(false);
@@ -164,14 +164,14 @@
 
         #endregion
 
-        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox decTextBox;
         private System.Windows.Forms.Button Increment;
         private System.Windows.Forms.Button Decrement;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox binTextBox;
         private System.Windows.Forms.Label label3;
-        public System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TextBox hexTextBox;
         private System.Windows.Forms.Button decimalAttachDetachBtn;
         private System.Windows.Forms.Button binaryAttachDetachBtn;
         private System.Windows.Forms.Button hexAttachDetachBtn;

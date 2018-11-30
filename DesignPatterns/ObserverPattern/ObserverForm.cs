@@ -18,9 +18,9 @@ namespace ObserverPattern
 
             subject = new Subject();
 
-            decObserver = new ObserverDecimal(subject, textBox1);
-            binObserver = new ObserverBinary(subject, textBox2);
-            hexObserver = new ObserverHex(subject, textBox3);
+            decObserver = new ObserverDecimal(subject, decTextBox);
+            binObserver = new ObserverBinary(subject, binTextBox);
+            hexObserver = new ObserverHex(subject, hexTextBox);
 
             subject.Attach(decObserver);
             subject.Attach(binObserver);
@@ -42,17 +42,19 @@ namespace ObserverPattern
         private void decimalObserverDetach_Click(object sender, System.EventArgs e)
         {
             DetachObserver(decimalAttachDetachBtn, decObserver);
+            decTextBox.Enabled = !decTextBox.Enabled;
         }
 
         private void binaryObserverDetach_Click(object sender, System.EventArgs e)
         {
             DetachObserver(binaryAttachDetachBtn, binObserver);
-
+            binTextBox.Enabled = !binTextBox.Enabled;
         }
 
         private void hexObserverDetach_Click(object sender, System.EventArgs e)
         {
             DetachObserver(hexAttachDetachBtn, hexObserver);
+            hexTextBox.Enabled = !hexTextBox.Enabled;
         }
 
         private void DetachObserver(Button button, BaseObserverView observer)
