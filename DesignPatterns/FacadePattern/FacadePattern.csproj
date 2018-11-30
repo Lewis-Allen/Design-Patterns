@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F1ED9BBD-C1B1-4AC3-8F7C-0E5E87D79F3E}</ProjectGuid>
+    <ProjectGuid>{CB3EB5F5-E32C-49F1-A648-E96D2875EF5E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DesignPatterns</RootNamespace>
-    <AssemblyName>DesignPatterns</AssemblyName>
+    <RootNamespace>FacadePattern</RootNamespace>
+    <AssemblyName>FacadePattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,16 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DesignPatternsForm.cs">
+    <Compile Include="Account.cs" />
+    <Compile Include="Deposit.cs" />
+    <Compile Include="Facade.cs" />
+    <Compile Include="FacadeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DesignPatternsForm.Designer.cs">
-      <DependentUpon>DesignPatternsForm.cs</DependentUpon>
+    <Compile Include="FacadeForm.Designer.cs">
+      <DependentUpon>FacadeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DesignPatternsForm.resx">
-      <DependentUpon>DesignPatternsForm.cs</DependentUpon>
+    <Compile Include="Withdraw.cs" />
+    <EmbeddedResource Include="FacadeForm.resx">
+      <DependentUpon>FacadeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -77,24 +81,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AdapterPattern\AdapterPattern.csproj">
-      <Project>{65160750-d051-4e51-b5fa-d85f2802c9d0}</Project>
-      <Name>AdapterPattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj">
-      <Project>{6aba888f-b318-48a9-bf63-0aa8926ff055}</Project>
-      <Name>DecoratorPattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FacadePattern\FacadePattern.csproj">
-      <Project>{cb3eb5f5-e32c-49f1-a648-e96d2875ef5e}</Project>
-      <Name>FacadePattern</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ObserverPattern\ObserverPattern.csproj">
-      <Project>{c7eb2b59-4e73-4abd-8be9-8ff1e1bf8a92}</Project>
-      <Name>ObserverPattern</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using ObserverPattern;
+﻿using FacadePattern;
+using ObserverPattern;
 using System;
 using System.Windows.Forms;
 
@@ -25,6 +26,12 @@ namespace DesignPatterns
         private void DecoratorPatternBtn_Click(object sender, EventArgs e)
         {
             DecoratorPattern.Client.Main();
+        }
+
+        private void FacadePatternBtn_Click(object sender, EventArgs e)
+        {
+            Form facadeForm = new FacadeForm();
+            facadeForm.Show();
         }
     }
 }
