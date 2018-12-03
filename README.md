@@ -6,10 +6,12 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 
 ### Creational
 
+
 ### Structural
 - Adapter Pattern
 - Decorator Pattern
 - Facade Pattern
+- Proxy Pattern
 
 ### Behavioural
 - Observer Pattern
