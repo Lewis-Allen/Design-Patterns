@@ -5,31 +5,31 @@ Implementation of several design patterns from object-oriented software design i
 Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Design_Patterns).
 
 ### Creational
-TODO - Abstract factory
-TODO - Builder
-TODO - Factory method
-TODO - Prototype
-TODO - Singleton
+- TODO Abstract factory
+- TODO Builder
+- TODO Factory method
+- TODO Prototype
+- TODO Singleton
 
 ### Structural
 - Adapter Pattern
 - Decorator Pattern
 - Facade Pattern
 - Proxy Pattern
-TODO - Bridge
-TODO - Composite   
-TODO - Flyweight
+- TODO Bridge
+- TODO Composite   
+- TODO Flyweight
 
 ### Behavioural
 - Observer Pattern
-TODO - Chain of responsibility
-TODO - Memento
-TODO - State
-TODO - Strategy
-TODO - Template method 
-TODO - Visitor
-TODO - Command
-TODO - Interpreter
-TODO - Iterator
-TODO - Mediator
+- TODO Chain of responsibility
+- TODO Memento
+- TODO State
+- TODO Strategy
+- TODO Template method 
+- TODO Visitor
+- TODO Command
+- TODO Interpreter
+- TODO Iterator
+- TODO Mediator
          
