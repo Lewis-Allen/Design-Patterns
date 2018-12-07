@@ -83,6 +83,10 @@
       <Project>{65160750-d051-4e51-b5fa-d85f2802c9d0}</Project>
       <Name>AdapterPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CompositePattern\CompositePattern.csproj">
+      <Project>{07f83013-63e9-43ac-97b7-79614ed3bc6f}</Project>
+      <Name>CompositePattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj">
       <Project>{6aba888f-b318-48a9-bf63-0aa8926ff055}</Project>
       <Name>DecoratorPattern</Name>
@@ -94,6 +98,10 @@
     <ProjectReference Include="..\ObserverPattern\ObserverPattern.csproj">
       <Project>{c7eb2b59-4e73-4abd-8be9-8ff1e1bf8a92}</Project>
       <Name>ObserverPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProxyPattern\ProxyPattern.csproj">
+      <Project>{9f4fd054-023b-4d74-afa2-e6131bc7a297}</Project>
+      <Name>ProxyPattern</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
