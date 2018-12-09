@@ -18,14 +18,16 @@ namespace ProxyPattern
         IImage ProxyImage2;
         IImage ProxyImage3;
         IImage ProxyImage4;
+        private static String FolderPath = @"res" + Path.DirectorySeparatorChar;
+
         public ProxyForm()
         {
             InitializeComponent();
 
-            RealImage1 = new RealImage(@"res\Image1.jpg");
-            ProxyImage2 = new ProxyImage(@"res\Image2.jpg");
-            ProxyImage3 = new ProxyImage(@"res\Image3.jpg");
-            ProxyImage4 = new ProxyImage(@"res\Image4.jpg");
+            RealImage1 = new RealImage(FolderPath + @"Image1.jpg");
+            ProxyImage2 = new ProxyImage(FolderPath + @"Image2.jpg");
+            ProxyImage3 = new ProxyImage(FolderPath + @"Image3.jpg");
+            ProxyImage4 = new ProxyImage(FolderPath + @"Image4.jpg");
 
             RealImage1.LoadImageFromDisk(); // Image is already loaded on construction and may never be displayed
         }
