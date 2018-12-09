@@ -17,7 +17,7 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 - Facade Pattern
 - Proxy Pattern
 - TODO Bridge
-- TODO Composite   
+- Composite Pattern
 - TODO Flyweight
 
 ### Behavioural
