@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace ProxyPattern
@@ -10,7 +11,7 @@ namespace ProxyPattern
         IImage ProxyImage2;
         IImage ProxyImage3;
         IImage ProxyImage4;
-        private static String FolderPath = @"res" + Path.DirectorySeparatorChar;
+        private static string FolderPath = @"res" + Path.DirectorySeparatorChar;
 
         public ProxyForm()
         {
