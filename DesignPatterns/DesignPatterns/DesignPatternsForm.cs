@@ -1,5 +1,6 @@
 ﻿using FacadePattern;
 using ObserverPattern;
+using ProxyPattern;
 using System;
 using System.Windows.Forms;
 
@@ -32,6 +33,17 @@ namespace DesignPatterns
         {
             Form facadeForm = new FacadeForm();
             facadeForm.Show();
+        }
+
+        private void ProxyPatternBtn_Click(object sender, EventArgs e)
+        {
+            Form proxyPattern = new ProxyForm();
+            proxyPattern.Show();
+        }
+
+        private void CompositePatternBtn_Click(object sender, EventArgs e)
+        {
+            CompositePattern.Client.Main();
         }
     }
 }
