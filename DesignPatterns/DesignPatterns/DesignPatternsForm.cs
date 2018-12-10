@@ -50,5 +50,10 @@ namespace DesignPatterns
         {
             SingletonPattern.Client.Main();
         }
+
+        private void IteratorPatternBtn_Click(object sender, EventArgs e)
+        {
+            IteratorPattern.Client.Main();
+        }
     }
 }

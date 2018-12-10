@@ -95,6 +95,10 @@
       <Project>{cb3eb5f5-e32c-49f1-a648-e96d2875ef5e}</Project>
       <Name>FacadePattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\IteratorPattern\IteratorPattern.csproj">
+      <Project>{9ab06b15-c4d6-41d0-81e6-247dd659cab9}</Project>
+      <Name>IteratorPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ObserverPattern\ObserverPattern.csproj">
       <Project>{c7eb2b59-4e73-4abd-8be9-8ff1e1bf8a92}</Project>
       <Name>ObserverPattern</Name>
