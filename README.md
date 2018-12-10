@@ -9,7 +9,7 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 - TODO Builder
 - TODO Factory method
 - TODO Prototype
-- TODO Singleton
+- Singleton
 
 ### Structural
 - Adapter Pattern

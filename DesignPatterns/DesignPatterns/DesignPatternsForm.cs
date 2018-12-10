@@ -45,5 +45,10 @@ namespace DesignPatterns
         {
             CompositePattern.Client.Main();
         }
+
+        private void SingletonPatternBtn_Click(object sender, EventArgs e)
+        {
+            SingletonPattern.Client.Main();
+        }
     }
 }
