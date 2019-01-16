@@ -23,7 +23,7 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 ### Behavioural
 - [Observer Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/ObserverPattern)
 - TODO Chain of Responsibility Pattern
-- TODO Memento Pattern
+- [Memento Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/MementoPattern)
 - TODO State Pattern
 - [Strategy Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/StrategyPattern)
 - TODO Template Method Pattern

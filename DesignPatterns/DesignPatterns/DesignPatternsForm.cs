@@ -1,4 +1,5 @@
 ﻿using FacadePattern;
+using MementoPattern;
 using ObserverPattern;
 using ProxyPattern;
 using System;
@@ -69,6 +70,12 @@ namespace DesignPatterns
         private void StrategyPatternBtn_Click(object sender, EventArgs e)
         {
             StrategyPattern.Client.Main();
+        }
+
+        private void MementoPattern_Click(object sender, EventArgs e)
+        {
+            Form mementoPattern = new MementoForm();
+            mementoPattern.Show();
         }
     }
 }
