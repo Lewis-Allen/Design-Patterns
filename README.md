@@ -16,7 +16,7 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 - [Decorator Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/DecoratorPattern)
 - [Facade Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/FacadePattern)
 - [Proxy Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/ProxyPattern)
-- TODO Bridge Pattern
+- [Bridge Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/BridgePattern)
 - [Composite Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/CompositePattern)
 - [Flyweight Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/FlyweightPattern)
 
