@@ -119,6 +119,10 @@
       <Project>{16e51408-90ac-45df-8532-ba9790953bf9}</Project>
       <Name>SingletonPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\StrategyPattern\StrategyPattern.csproj">
+      <Project>{5378c03b-f3f8-433d-a718-70eb5952d858}</Project>
+      <Name>StrategyPattern</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

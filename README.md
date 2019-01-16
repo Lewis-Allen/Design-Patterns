@@ -25,7 +25,7 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 - TODO Chain of Responsibility Pattern
 - TODO Memento Pattern
 - TODO State Pattern
-- TODO Strategy Pattern
+- [Strategy Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/StrategyPattern)
 - TODO Template Method Pattern
 - TODO Visitor Pattern
 - TODO Command Pattern
