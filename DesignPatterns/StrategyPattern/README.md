@@ -10,4 +10,4 @@ The example implemented here consists of a shopping list which can contain sever
 These can be used interchangeably and swapped during run-time, fulfilling the requirements of the Strategy Pattern.
 
 Here is a class diagram detailing this example:
-![](strategy.png)
+![](StrategyPattern.png)
