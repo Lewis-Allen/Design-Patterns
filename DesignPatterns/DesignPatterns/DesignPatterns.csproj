@@ -83,6 +83,10 @@
       <Project>{65160750-d051-4e51-b5fa-d85f2802c9d0}</Project>
       <Name>AdapterPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BridgePattern\BridgePattern.csproj">
+      <Project>{82eab58e-2ca3-47cf-aa5a-9615fac83096}</Project>
+      <Name>BridgePattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CompositePattern\CompositePattern.csproj">
       <Project>{07f83013-63e9-43ac-97b7-79614ed3bc6f}</Project>
       <Name>CompositePattern</Name>
@@ -114,6 +118,10 @@
     <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj">
       <Project>{16e51408-90ac-45df-8532-ba9790953bf9}</Project>
       <Name>SingletonPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StrategyPattern\StrategyPattern.csproj">
+      <Project>{5378c03b-f3f8-433d-a718-70eb5952d858}</Project>
+      <Name>StrategyPattern</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

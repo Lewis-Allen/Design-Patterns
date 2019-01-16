@@ -60,5 +60,15 @@ namespace DesignPatterns
         {
             FlyweightPattern.Client.Main();
         }
+
+        private void BridgePatternBtn_Click(object sender, EventArgs e)
+        {
+            BridgePattern.Client.Main();
+        }
+
+        private void StrategyPatternBtn_Click(object sender, EventArgs e)
+        {
+            StrategyPattern.Client.Main();
+        }
     }
 }

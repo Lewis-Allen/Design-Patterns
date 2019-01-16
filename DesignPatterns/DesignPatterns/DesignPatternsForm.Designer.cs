@@ -37,6 +37,8 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // AdapterPatternBtn
@@ -129,11 +131,33 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.FlyweightPatternBtn_Click);
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(13, 276);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(127, 23);
+            this.button8.TabIndex = 9;
+            this.button8.Text = "Bridge Pattern";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.BridgePatternBtn_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(12, 305);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(127, 23);
+            this.button9.TabIndex = 10;
+            this.button9.Text = "Strategy Pattern";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.StrategyPatternBtn_Click);
+            // 
             // DesignPatternsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -143,6 +167,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ObserverPatternBtn);
             this.Controls.Add(this.AdapterPatternBtn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "DesignPatternsForm";
             this.Text = "Design Patterns";
             this.ResumeLayout(false);
@@ -160,6 +185,8 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }
 

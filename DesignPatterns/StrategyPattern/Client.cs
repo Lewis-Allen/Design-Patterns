@@ -2,9 +2,9 @@
 
 namespace StrategyPattern
 {
-    class Client
+    public class Client
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             ShoppingList shoppingList = new ShoppingList();
 
@@ -24,8 +24,6 @@ namespace StrategyPattern
 
             shoppingList.SetPaymentStrategy(new CardPayment("1234-5678-9012-3456"));
             shoppingList.MakePayment();
-
-            Console.ReadKey();
         }
     }
 }
