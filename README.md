@@ -18,7 +18,7 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 - [Proxy Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/ProxyPattern)
 - TODO Bridge Pattern
 - [Composite Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/CompositePattern)
-- TODO Flyweight Pattern
+- [Flyweight Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/FlyweightPattern)
 
 ### Behavioural
 - [Observer Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/ObserverPattern)

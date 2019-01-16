@@ -55,5 +55,10 @@ namespace DesignPatterns
         {
             IteratorPattern.Client.Main();
         }
+
+        private void FlyweightPatternBtn_Click(object sender, EventArgs e)
+        {
+            FlyweightPattern.Client.Main();
+        }
     }
 }
