@@ -23,7 +23,7 @@ namespace BridgePattern
 
         public void Trash()
         {
-            Console.Write("You thrash the pizza ");
+            Console.Write("You trash the pizza ");
             ingredient.OnTrash();
         }
     }
