@@ -77,5 +77,10 @@ namespace DesignPatterns
             Form mementoPattern = new MementoForm();
             mementoPattern.Show();
         }
+
+        private void AbstracFactoryPattern_Click(object sender, EventArgs e)
+        {
+            AbstractFactoryPattern.Charlie.Main();
+        }
     }
 }
