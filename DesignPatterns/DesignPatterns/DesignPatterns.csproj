@@ -91,6 +91,10 @@
       <Project>{82eab58e-2ca3-47cf-aa5a-9615fac83096}</Project>
       <Name>BridgePattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CommandPattern\CommandPattern.csproj">
+      <Project>{7706fd32-dbfa-4fa2-acbf-65eb9a1d26c4}</Project>
+      <Name>CommandPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CompositePattern\CompositePattern.csproj">
       <Project>{07f83013-63e9-43ac-97b7-79614ed3bc6f}</Project>
       <Name>CompositePattern</Name>
