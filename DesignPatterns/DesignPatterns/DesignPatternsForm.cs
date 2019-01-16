@@ -72,10 +72,15 @@ namespace DesignPatterns
             StrategyPattern.Client.Main();
         }
 
-        private void MementoPattern_Click(object sender, EventArgs e)
+        private void MementoPatternBtn_Click(object sender, EventArgs e)
         {
             Form mementoPattern = new MementoForm();
             mementoPattern.Show();
+        }
+
+        private void CommandPatternBtn_Click(object sender, EventArgs e)
+        {
+            CommandPattern.Client.Main();
         }
 
         private void AbstracFactoryPattern_Click(object sender, EventArgs e)

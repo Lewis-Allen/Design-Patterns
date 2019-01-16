@@ -41,11 +41,15 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // AdapterPatternBtn
             // 
-            this.AdapterPatternBtn.Location = new System.Drawing.Point(12, 12);
+            this.AdapterPatternBtn.Location = new System.Drawing.Point(146, 25);
             this.AdapterPatternBtn.Name = "AdapterPatternBtn";
             this.AdapterPatternBtn.Size = new System.Drawing.Size(128, 23);
             this.AdapterPatternBtn.TabIndex = 0;
@@ -55,9 +59,9 @@
             // 
             // ObserverPatternBtn
             // 
-            this.ObserverPatternBtn.Location = new System.Drawing.Point(12, 41);
+            this.ObserverPatternBtn.Location = new System.Drawing.Point(280, 25);
             this.ObserverPatternBtn.Name = "ObserverPatternBtn";
-            this.ObserverPatternBtn.Size = new System.Drawing.Size(128, 23);
+            this.ObserverPatternBtn.Size = new System.Drawing.Size(127, 23);
             this.ObserverPatternBtn.TabIndex = 1;
             this.ObserverPatternBtn.Text = "Observer Pattern";
             this.ObserverPatternBtn.UseVisualStyleBackColor = true;
@@ -65,7 +69,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 71);
+            this.button1.Location = new System.Drawing.Point(146, 54);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(128, 23);
             this.button1.TabIndex = 2;
@@ -75,7 +79,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 100);
+            this.button2.Location = new System.Drawing.Point(146, 83);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(128, 23);
             this.button2.TabIndex = 3;
@@ -85,7 +89,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(12, 129);
+            this.button3.Location = new System.Drawing.Point(146, 112);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(128, 23);
             this.button3.TabIndex = 4;
@@ -95,7 +99,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(12, 158);
+            this.button4.Location = new System.Drawing.Point(146, 170);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(128, 23);
             this.button4.TabIndex = 5;
@@ -105,7 +109,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(12, 187);
+            this.button5.Location = new System.Drawing.Point(12, 25);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(128, 23);
             this.button5.TabIndex = 6;
@@ -115,7 +119,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(12, 216);
+            this.button6.Location = new System.Drawing.Point(280, 112);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(128, 23);
             this.button6.TabIndex = 7;
@@ -125,9 +129,9 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(13, 246);
+            this.button7.Location = new System.Drawing.Point(146, 199);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(127, 23);
+            this.button7.Size = new System.Drawing.Size(128, 23);
             this.button7.TabIndex = 8;
             this.button7.Text = "Flyweight Pattern";
             this.button7.UseVisualStyleBackColor = true;
@@ -135,9 +139,9 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(13, 276);
+            this.button8.Location = new System.Drawing.Point(146, 141);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(127, 23);
+            this.button8.Size = new System.Drawing.Size(128, 23);
             this.button8.TabIndex = 9;
             this.button8.Text = "Bridge Pattern";
             this.button8.UseVisualStyleBackColor = true;
@@ -145,7 +149,7 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(12, 305);
+            this.button9.Location = new System.Drawing.Point(280, 83);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(127, 23);
             this.button9.TabIndex = 10;
@@ -155,29 +159,70 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(12, 335);
+            this.button10.Location = new System.Drawing.Point(280, 54);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(128, 23);
+            this.button10.Size = new System.Drawing.Size(127, 23);
             this.button10.TabIndex = 11;
             this.button10.Text = "Memento Pattern";
             this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.MementoPattern_Click);
+            this.button10.Click += new System.EventHandler(this.MementoPatternBtn_Click);
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(13, 364);
+            this.button11.Location = new System.Drawing.Point(280, 141);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(128, 23);
+            this.button11.Size = new System.Drawing.Size(127, 23);
             this.button11.TabIndex = 12;
-            this.button11.Text = "Abstract Factory Pattern";
+            this.button11.Text = "Command Pattern";
             this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.AbstracFactoryPattern_Click);
+            this.button11.Click += new System.EventHandler(this.CommandPatternBtn_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(48, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Creational";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(179, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Structural";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(309, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Behavioural";
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(12, 54);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(128, 23);
+            this.button12.TabIndex = 16;
+            this.button12.Text = "Abstract Factory Pattern";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.AbstracFactoryPattern_Click);
             // 
             // DesignPatternsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(427, 264);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -195,6 +240,7 @@
             this.Name = "DesignPatternsForm";
             this.Text = "Design Patterns";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -213,6 +259,10 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button12;
     }
 }
 
