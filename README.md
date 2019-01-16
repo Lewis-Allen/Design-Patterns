@@ -5,7 +5,7 @@ Implementation of several design patterns from object-oriented software design i
 Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Design_Patterns).
 
 ### Creational
-- TODO Abstract Factory Pattern
+- [Abstract Factory Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/AbstractFactoryPattern)
 - TODO Builder Pattern
 - TODO Factory Method Pattern
 - TODO Prototype Pattern
