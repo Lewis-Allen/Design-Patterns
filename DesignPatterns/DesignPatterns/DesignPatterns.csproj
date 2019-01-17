@@ -107,6 +107,10 @@
       <Project>{cb3eb5f5-e32c-49f1-a648-e96d2875ef5e}</Project>
       <Name>FacadePattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FactoryMethodPattern\FactoryMethodPattern.csproj">
+      <Project>{3fe9bb5c-6979-4049-bc42-4620019c8877}</Project>
+      <Name>FactoryMethodPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FlyweightPattern\FlyweightPattern.csproj">
       <Project>{1afcf68c-fb50-4a29-84d7-62b29398695d}</Project>
       <Name>FlyweightPattern</Name>

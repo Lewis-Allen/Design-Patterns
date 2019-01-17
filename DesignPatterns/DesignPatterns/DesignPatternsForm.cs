@@ -83,9 +83,14 @@ namespace DesignPatterns
             CommandPattern.Client.Main();
         }
 
-        private void AbstracFactoryPattern_Click(object sender, EventArgs e)
+        private void AbstractFactoryPattern_Click(object sender, EventArgs e)
         {
             AbstractFactoryPattern.Charlie.Main();
+        }
+
+        private void FactoryMethodPattern_Click(object sender, EventArgs e)
+        {
+            FactoryMethodPattern.Client.Main();
         }
     }
 }

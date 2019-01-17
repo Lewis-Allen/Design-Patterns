@@ -221,7 +221,7 @@
             this.button12.TabIndex = 16;
             this.button12.Text = "Abstract Factory Pattern";
             this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.AbstracFactoryPattern_Click);
+            this.button12.Click += new System.EventHandler(this.AbstractFactoryPattern_Click);
             // 
             // button13
             // 
@@ -234,16 +234,17 @@
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(13, 113);
+            this.button14.Location = new System.Drawing.Point(13, 112);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(128, 23);
             this.button14.TabIndex = 18;
-            this.button14.Text = "X Factory Method";
+            this.button14.Text = "Factory Method";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.FactoryMethodPattern_Click);
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(13, 143);
+            this.button15.Location = new System.Drawing.Point(13, 141);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(128, 23);
             this.button15.TabIndex = 19;
