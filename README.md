@@ -28,7 +28,7 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 - [Strategy Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/StrategyPattern)
 - TODO Template Method Pattern
 - TODO Visitor Pattern
-- TODO Command Pattern
+- [Command Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/CommandPattern)
 - TODO Interpreter Pattern
 - [Iterator Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/IteratorPattern)
 - TODO Mediator Pattern
