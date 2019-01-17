@@ -92,5 +92,10 @@ namespace DesignPatterns
         {
             FactoryMethodPattern.Client.Main();
         }
+
+        private void PrototypePattern_Click(object sender, EventArgs e)
+        {
+            PrototypePattern.Client.Main();
+        }
     }
 }
