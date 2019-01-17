@@ -8,7 +8,7 @@
                     attack,
                     defense;
 
-        private double value = 0.49;
+        private double value;
 
         public Monster(int health, int age, int range, int attack, int defense, double value)
         {
@@ -22,9 +22,7 @@
 
         public Prototype Clone()
         {
-            Prototype clone = new Monster(health, age, range, attack, defense, value);
-            
-            return clone;
+            return new Monster(health, age, range, attack, defense, value);
         }
 
         public override string ToString()
