@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FactoryMethodPattern
+﻿namespace FactoryMethodPattern
 {
     class Circle : IShape
     {
-        public string getDescription()
+        public string GetDescription()
         {
             return "A basic circle shape.";
         }

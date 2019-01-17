@@ -9,13 +9,13 @@ namespace FactoryMethodPattern
             ShapeFactory factory = new ShapeFactory();
 
             IShape rectangle = factory.GetShape(Shape.Rectangle);
-            Console.WriteLine(rectangle.getDescription());
+            Console.WriteLine(rectangle.GetDescription());
 
             IShape circle = factory.GetShape(Shape.Circle);
-            Console.WriteLine(circle.getDescription());
+            Console.WriteLine(circle.GetDescription());
 
             IShape square = factory.GetShape(Shape.Square);
-            Console.WriteLine(square.getDescription());
+            Console.WriteLine(square.GetDescription());
         }
     }
 }
