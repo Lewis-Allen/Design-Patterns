@@ -6,7 +6,7 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 
 ### Creational
 - [Abstract Factory Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/AbstractFactoryPattern)
-- TODO Builder Pattern
+- [Builder Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/BuilderPattern)
 - [Factory Method Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/FactoryMethodPattern)
 - [Prototype Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/PrototypePattern)
 - [Singleton Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/SingletonPattern)
@@ -24,12 +24,12 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 - [Observer Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/ObserverPattern)
 - TODO Chain of Responsibility Pattern
 - [Memento Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/MementoPattern)
-- TODO State Pattern
+- [State Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/StatePattern)
 - [Strategy Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/StrategyPattern)
 - TODO Template Method Pattern
 - TODO Visitor Pattern
 - [Command Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/CommandPattern)
 - TODO Interpreter Pattern
 - [Iterator Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/IteratorPattern)
-- TODO Mediator Pattern
+- [Mediator Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/IteratorPattern)
          

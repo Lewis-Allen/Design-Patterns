@@ -306,6 +306,90 @@
             this.button21.Text = "X Visitor Pattern";
             this.button21.UseVisualStyleBackColor = true;
             // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(13, 83);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(128, 23);
+            this.button13.TabIndex = 17;
+            this.button13.Text = "Builder Pattern";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.BuilderPattern_Click);
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(13, 112);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(128, 23);
+            this.button14.TabIndex = 18;
+            this.button14.Text = "X Factory Method";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(13, 141);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(128, 23);
+            this.button15.TabIndex = 19;
+            this.button15.Text = "X Prototype Pattern";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(280, 170);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(128, 23);
+            this.button16.TabIndex = 20;
+            this.button16.Text = "X Chain of Resposability";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(280, 199);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(128, 23);
+            this.button17.TabIndex = 21;
+            this.button17.Text = "X Interpreter Pattern";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(280, 228);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(128, 23);
+            this.button18.TabIndex = 22;
+            this.button18.Text = "Mediator Pattern";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.MediatorPattern_Click);
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(280, 257);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(128, 23);
+            this.button19.TabIndex = 23;
+            this.button19.Text = "State Pattern";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.StatePattern_Click);
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(280, 286);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(128, 23);
+            this.button20.TabIndex = 24;
+            this.button20.Text = "X Template Method Pattern";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(280, 315);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(128, 23);
+            this.button21.TabIndex = 25;
+            this.button21.Text = "X Visitor Pattern";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
             // DesignPatternsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
