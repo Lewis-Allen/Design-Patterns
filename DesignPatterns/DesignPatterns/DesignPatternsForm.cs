@@ -114,7 +114,11 @@ namespace DesignPatterns
         private void PrototypePattern_Click(object sender, EventArgs e)
         {
             PrototypePattern.Client.Main();
+        }
 
+        private void TemplateMethod_Click(object sender, EventArgs e)
+        {
+            TemplateMethodPattern.Client.Main();
         }
     }
 }
