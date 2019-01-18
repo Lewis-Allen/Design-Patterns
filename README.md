@@ -24,7 +24,7 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 - [Observer Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/ObserverPattern)
 - TODO Chain of Responsibility Pattern
 - [Memento Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/MementoPattern)
-- TODO State Pattern
+- [State Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/StatePattern)
 - [Strategy Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/StrategyPattern)
 - [Template Method Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/TemplateMethodPattern)
 - TODO Visitor Pattern
