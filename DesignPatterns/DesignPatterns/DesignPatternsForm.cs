@@ -1,4 +1,5 @@
 ﻿using FacadePattern;
+using MediatorPattern;
 using MementoPattern;
 using ObserverPattern;
 using ProxyPattern;
@@ -86,6 +87,22 @@ namespace DesignPatterns
         private void AbstracFactoryPattern_Click(object sender, EventArgs e)
         {
             AbstractFactoryPattern.Charlie.Main();
+        }
+
+        private void MediatorPattern_Click(object sender, EventArgs e)
+        {
+            Form mediatorPattern = new MediatorForm();
+            mediatorPattern.Show();
+        }
+
+        private void StatePattern_Click(object sender, EventArgs e)
+        {
+            StatePattern.Client.Main();
+        }
+
+        private void BuilderPattern_Click(object sender, EventArgs e)
+        {
+            BuilderPattern.Client.Main();
         }
     }
 }

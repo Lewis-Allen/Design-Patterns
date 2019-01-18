@@ -51,6 +51,7 @@
     <Compile Include="DesignPatternsForm.Designer.cs">
       <DependentUpon>DesignPatternsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="IColleague.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DesignPatternsForm.resx">
@@ -91,6 +92,10 @@
       <Project>{82eab58e-2ca3-47cf-aa5a-9615fac83096}</Project>
       <Name>BridgePattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj">
+      <Project>{eb83aecd-b33a-43bc-8499-bdc2f633252e}</Project>
+      <Name>BuilderPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CommandPattern\CommandPattern.csproj">
       <Project>{7706fd32-dbfa-4fa2-acbf-65eb9a1d26c4}</Project>
       <Name>CommandPattern</Name>
@@ -115,6 +120,10 @@
       <Project>{9ab06b15-c4d6-41d0-81e6-247dd659cab9}</Project>
       <Name>IteratorPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MediatorPattern\MediatorPattern.csproj">
+      <Project>{11c8e3df-bca5-438a-9df5-64380149318f}</Project>
+      <Name>MediatorPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MementoPattern\MementoPattern.csproj">
       <Project>{9dea70a7-d495-4218-853a-2a6930b83fcf}</Project>
       <Name>MementoPattern</Name>
@@ -130,6 +139,10 @@
     <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj">
       <Project>{16e51408-90ac-45df-8532-ba9790953bf9}</Project>
       <Name>SingletonPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StatePattern\StatePattern.csproj">
+      <Project>{5e89f6bc-9553-4d8e-9d52-cae943be71ca}</Project>
+      <Name>StatePattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\StrategyPattern\StrategyPattern.csproj">
       <Project>{5378c03b-f3f8-433d-a718-70eb5952d858}</Project>

@@ -54,7 +54,7 @@
       <DependentUpon>MementoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Originator.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MementoForm.resx">
       <DependentUpon>MementoForm.cs</DependentUpon>
