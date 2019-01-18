@@ -2,6 +2,7 @@
 using MementoPattern;
 using ObserverPattern;
 using ProxyPattern;
+using BuilderPattern;
 using System;
 using System.Windows.Forms;
 
@@ -96,6 +97,24 @@ namespace DesignPatterns
         private void PrototypePattern_Click(object sender, EventArgs e)
         {
             PrototypePattern.Client.Main();
+        }
+
+        private void BuilderPattern_Click(object sender, EventArgs e)
+        {
+            var car1 = Car.Builder()
+                .WithWheels(4)
+                .WithColour("Red")
+                .WithName("Carla")
+                .Build();
+
+            var car2 = Car.Builder()
+                .WithColour("Blue")
+                .WithWheels(3)
+                .WithName("Ford")
+                .Build();
+
+            this.TextBox.AppendText(car1.ToString());
+            this.TextBox.AppendText(car2.ToString());
         }
     }
 }

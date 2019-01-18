@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -90,6 +90,10 @@
     <ProjectReference Include="..\BridgePattern\BridgePattern.csproj">
       <Project>{82eab58e-2ca3-47cf-aa5a-9615fac83096}</Project>
       <Name>BridgePattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj">
+      <Project>{27b707ac-ec3f-43bb-99f0-e07bfb661d82}</Project>
+      <Name>BuilderPattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\CommandPattern\CommandPattern.csproj">
       <Project>{7706fd32-dbfa-4fa2-acbf-65eb9a1d26c4}</Project>

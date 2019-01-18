@@ -54,6 +54,9 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
+            this.BuilderPatternBtn = new System.Windows.Forms.Button();
+
+            this.TextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // AdapterPatternBtn
@@ -306,11 +309,29 @@
             this.button21.Text = "X Visitor Pattern";
             this.button21.UseVisualStyleBackColor = true;
             // 
+            // Builder Pattern Button
+            // 
+            this.BuilderPatternBtn.Location = new System.Drawing.Point(146, 228);
+            this.BuilderPatternBtn.Name = "Builder Pattern Button";
+            this.BuilderPatternBtn.Size = new System.Drawing.Size(128, 23);
+            this.BuilderPatternBtn.TabIndex = 26;
+            this.BuilderPatternBtn.Text = "Builder Pattern";
+            this.BuilderPatternBtn.UseVisualStyleBackColor = true;
+            this.BuilderPatternBtn.Click += new System.EventHandler(this.BuilderPattern_Click);
+            //
+            // Text Box
+            //
+            this.TextBox.Location = new System.Drawing.Point(0, 400);
+            this.TextBox.Name = "Output box";
+            this.TextBox.Size = new System.Drawing.Size(426, 100);
+            this.TextBox.TabIndex = 27;
+            this.TextBox.Multiline = true;
+            // 
             // DesignPatternsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(426, 344);
+            this.ClientSize = new System.Drawing.Size(426, 500);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
@@ -337,6 +358,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ObserverPatternBtn);
             this.Controls.Add(this.AdapterPatternBtn);
+            this.Controls.Add(this.BuilderPatternBtn);
+            this.Controls.Add(this.TextBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "DesignPatternsForm";
             this.Text = "Design Patterns";
@@ -373,6 +396,8 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button BuilderPatternBtn;
+        private System.Windows.Forms.TextBox TextBox;
     }
 }
 
