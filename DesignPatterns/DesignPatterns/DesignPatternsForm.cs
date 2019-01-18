@@ -104,6 +104,7 @@ namespace DesignPatterns
         private void BuilderPattern_Click(object sender, EventArgs e)
         {
             BuilderPattern.Client.Main();
+        }
 
         private void FactoryMethodPattern_Click(object sender, EventArgs e)
         {
