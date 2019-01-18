@@ -7,8 +7,8 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 ### Creational
 - [Abstract Factory Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/AbstractFactoryPattern)
 - [Builder Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/BuilderPattern)
-- TODO Factory Method Pattern
-- TODO Prototype Pattern
+- [Factory Method Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/FactoryMethodPattern)
+- [Prototype Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/PrototypePattern)
 - [Singleton Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/SingletonPattern)
 
 ### Structural

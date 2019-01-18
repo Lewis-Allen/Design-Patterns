@@ -112,6 +112,10 @@
       <Project>{cb3eb5f5-e32c-49f1-a648-e96d2875ef5e}</Project>
       <Name>FacadePattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FactoryMethodPattern\FactoryMethodPattern.csproj">
+      <Project>{3fe9bb5c-6979-4049-bc42-4620019c8877}</Project>
+      <Name>FactoryMethodPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FlyweightPattern\FlyweightPattern.csproj">
       <Project>{1afcf68c-fb50-4a29-84d7-62b29398695d}</Project>
       <Name>FlyweightPattern</Name>
@@ -131,6 +135,10 @@
     <ProjectReference Include="..\ObserverPattern\ObserverPattern.csproj">
       <Project>{c7eb2b59-4e73-4abd-8be9-8ff1e1bf8a92}</Project>
       <Name>ObserverPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PrototypePattern\PrototypePattern.csproj">
+      <Project>{d1fde6b7-2ed5-4050-8aed-ff2bf5b365d5}</Project>
+      <Name>PrototypePattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\ProxyPattern\ProxyPattern.csproj">
       <Project>{9f4fd054-023b-4d74-afa2-e6131bc7a297}</Project>

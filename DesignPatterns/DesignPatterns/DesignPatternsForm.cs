@@ -84,10 +84,11 @@ namespace DesignPatterns
             CommandPattern.Client.Main();
         }
 
-        private void AbstracFactoryPattern_Click(object sender, EventArgs e)
+        private void AbstractFactoryPattern_Click(object sender, EventArgs e)
         {
             AbstractFactoryPattern.Charlie.Main();
         }
+
 
         private void MediatorPattern_Click(object sender, EventArgs e)
         {
@@ -103,6 +104,16 @@ namespace DesignPatterns
         private void BuilderPattern_Click(object sender, EventArgs e)
         {
             BuilderPattern.Client.Main();
+
+        private void FactoryMethodPattern_Click(object sender, EventArgs e)
+        {
+            FactoryMethodPattern.Client.Main();
+        }
+
+        private void PrototypePattern_Click(object sender, EventArgs e)
+        {
+            PrototypePattern.Client.Main();
+
         }
     }
 }
