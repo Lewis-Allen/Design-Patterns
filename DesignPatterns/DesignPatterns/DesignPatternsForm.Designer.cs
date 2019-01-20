@@ -259,8 +259,9 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(128, 23);
             this.button16.TabIndex = 20;
-            this.button16.Text = "X Chain of Resposability";
+            this.button16.Text = "Chain of Resposibility";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.ChainOfResponsibilityPattern_Click);
             // 
             // button17
             // 
@@ -299,7 +300,7 @@
             this.button20.TabIndex = 24;
             this.button20.Text = "Template Method Pattern";
             this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.TemplateMethod_Click);
+            this.button20.Click += new System.EventHandler(this.TemplateMethodPattern_Click);
             // 
             // button21
             // 
