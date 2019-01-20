@@ -10,7 +10,7 @@ namespace DecoratorPattern.Decorators
     {
         public CheeseDecorator(PizzaComponent pizzaComponent) : base(pizzaComponent) { }
 
-        private Boolean cheeseMelted = false;
+        private bool cheeseMelted = false;
 
         public override double Cost()
         {

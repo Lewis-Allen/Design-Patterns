@@ -26,7 +26,10 @@ namespace TemplateMethodPattern
 
         public virtual void AddMeat() { }
 
-        public virtual void AddSalad() { }
+        public void AddSalad()
+        {
+            Console.WriteLine("You place some lettuce into the sandwich.");
+        }
 
         // Methods which must be implemented are defined as abstract.
         public abstract void Eat();
