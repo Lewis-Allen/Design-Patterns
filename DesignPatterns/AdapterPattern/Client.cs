@@ -10,11 +10,11 @@ namespace AdapterPattern
     {
         public static void Main()
         {
-            Labrador labrador = new Labrador();
-            PlasticDog toyDog = new PlasticDog();
+            IDog labrador = new Labrador();
+            IToyDog toyDog = new PlasticDog();
 
             // This Labrador should now act like a toy dog.
-            DogAdapter adaptedLabrador = new DogAdapter(labrador);
+            IToyDog adaptedLabrador = new DogAdapter(labrador);
 
             Console.Write("Labrador: ");
             labrador.Bark();

@@ -14,10 +14,6 @@ namespace TemplateMethodPattern
             Console.WriteLine("You fry some bacon and add it to the sandwich.");
         }
 
-        public override void AddSalad()
-        {
-            Console.WriteLine("You add some lettuce leaves to the sandwich.");
-        }
 
         public override void Eat()
         {

@@ -14,10 +14,6 @@ namespace TemplateMethodPattern
             Console.WriteLine("You grate some mature cheddar into the sandwich.");
         }
 
-        public override void AddSalad()
-        {
-            Console.WriteLine("You place some lettuce into the sandwich.");
-        }
 
         public override void Eat()
         {

@@ -37,7 +37,6 @@ namespace ProxyPattern
 
         private void button3_Click(object sender, EventArgs e)
         {
-
             ProxyImage3.DisplayImage(pictureBox1);
         }
 
