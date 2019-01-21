@@ -51,7 +51,6 @@
     <Compile Include="DesignPatternsForm.Designer.cs">
       <DependentUpon>DesignPatternsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="IColleague.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DesignPatternsForm.resx">
@@ -95,6 +94,10 @@
     <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj">
       <Project>{eb83aecd-b33a-43bc-8499-bdc2f633252e}</Project>
       <Name>BuilderPattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj">
+      <Project>{52c54b91-fc23-41e3-a9db-fc91ee14e962}</Project>
+      <Name>ChainOfResponsibilityPattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\CommandPattern\CommandPattern.csproj">
       <Project>{7706fd32-dbfa-4fa2-acbf-65eb9a1d26c4}</Project>
