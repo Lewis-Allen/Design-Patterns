@@ -163,6 +163,10 @@
       <Project>{c9fdc7a6-0377-4ed5-b694-8713ef44f5d5}</Project>
       <Name>TemplateMethodPattern</Name>
     </ProjectReference>
+    <ProjectReference Include="..\VisitorPattern\VisitorPattern.csproj">
+      <Project>{3bce4e1b-68be-42b8-927d-fb7864d51d50}</Project>
+      <Name>VisitorPattern</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
