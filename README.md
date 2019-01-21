@@ -27,9 +27,8 @@ Patterns categorised as per the [Gang of Four](https://en.wikipedia.org/wiki/Des
 - [State Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/StatePattern)
 - [Strategy Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/StrategyPattern)
 - [Template Method Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/TemplateMethodPattern)
-- TODO Visitor Pattern
+- [Visitor Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/VisitorPattern)
 - [Command Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/CommandPattern)
-- TODO Interpreter Pattern
 - [Iterator Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/IteratorPattern)
 - [Mediator Pattern](https://github.com/Lewis-Allen/Design-Patterns/tree/master/DesignPatterns/MediatorPattern)
          

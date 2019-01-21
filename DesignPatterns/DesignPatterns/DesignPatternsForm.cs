@@ -125,5 +125,10 @@ namespace DesignPatterns
         {
             ChainOfResponsibilityPattern.Client.Main();
         }
+
+        private void VisitorPattern_Click(object sender, EventArgs e)
+        {
+            VisitorPattern.Client.Main();
+        }
     }
 }

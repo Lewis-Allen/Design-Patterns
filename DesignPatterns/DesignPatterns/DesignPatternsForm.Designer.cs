@@ -308,8 +308,9 @@
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(128, 23);
             this.button21.TabIndex = 25;
-            this.button21.Text = "X Visitor Pattern";
+            this.button21.Text = "Visitor Pattern";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.VisitorPattern_Click);
             // 
             // DesignPatternsForm
             // 
