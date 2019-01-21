@@ -259,7 +259,7 @@
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(128, 23);
             this.button16.TabIndex = 20;
-            this.button16.Text = "Chain of Resposibility";
+            this.button16.Text = "Chain of Responsibility";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.ChainOfResponsibilityPattern_Click);
             // 
