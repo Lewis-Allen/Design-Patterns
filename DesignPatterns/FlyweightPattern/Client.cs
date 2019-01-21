@@ -1,6 +1,4 @@
-﻿
-
-namespace FlyweightPattern
+﻿namespace FlyweightPattern
 {
     public class Client
     {

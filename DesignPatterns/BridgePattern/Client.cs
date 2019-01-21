@@ -1,4 +1,4 @@
-﻿
+﻿  
 namespace BridgePattern
 {
     public class Client

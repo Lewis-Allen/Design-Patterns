@@ -1,5 +1,4 @@
-﻿
-namespace FlyweightPattern
+﻿namespace FlyweightPattern
 {
     public interface ICharacter
     {
