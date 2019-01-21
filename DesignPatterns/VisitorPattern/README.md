@@ -6,7 +6,7 @@ In this example, we implement a binary tree of integers with the following struc
 
 ![](BinaryTree.png)
 
-Using the visitor object `SumVistor`, we transverse the binary tree and add up all of its values.
+Using the visitor object `SumVisitor`, we transverse the binary tree and add up all of its values.
 
 ## UML Diagram of the example.
 ![](VisitorPattern.png)
