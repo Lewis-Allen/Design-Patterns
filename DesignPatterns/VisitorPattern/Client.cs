@@ -12,6 +12,11 @@ namespace VisitorPattern
             ints.Accept(sumVisitor);
 
             Console.WriteLine($"The sum of the binary tree is {sumVisitor.Sum}");
+
+            LeafNodeCountVisitor leafNodeCountVisitor = new LeafNodeCountVisitor();
+            ints.Accept(leafNodeCountVisitor);
+
+            Console.WriteLine($"The number of leaf nodes in the binary tree is {leafNodeCountVisitor.count}");
         }
     }
 }

@@ -48,6 +48,7 @@
     <Compile Include="IVisitable.cs" />
     <Compile Include="IVisitor.cs" />
     <Compile Include="Leaf.cs" />
+    <Compile Include="LeafNodeCountVisitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SumVisitor.cs" />
   </ItemGroup>
