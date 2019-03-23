@@ -10,8 +10,15 @@ namespace VisitorPattern
         {
             Console.WriteLine($"Adding Branch {branch.Value}...");
             Sum += branch.Value;
-            branch.Left.Accept(this);
-            branch.Right.Accept(this);
+            if(branch.Left != null)
+            {
+                branch.Left.Accept(this);
+            }
+
+            if(branch.Right != null)
+            {
+                branch.Right.Accept(this);
+            }
         }
 
         public void Visit(Leaf leaf)
