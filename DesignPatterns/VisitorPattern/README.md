@@ -11,5 +11,5 @@ Using the visitor object `SumVisitor`, we transverse the binary tree and add up 
 ## UML Diagram of the example.
 ![](VisitorPattern.png)
 
-We can also define a visitor object with counts the number of leaf nodes in the tree. This means we are able to add functionality without having to change any code in the tree itself.
+We can also define the visitor object `LeafNodeCountVisitor` which counts the number of leaf nodes in the tree. This demonstrates how we are able to add additional functionality without having to change any code in the tree itself.
 
